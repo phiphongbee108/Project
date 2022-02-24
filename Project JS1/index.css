@@ -1,0 +1,39 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header table {
+    margin: 0 auto;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header button {
+    margin-top: 20px;
+    margin-left: 150%;
+}
+
+.mainBar {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mainBar table, .mainBar tr, .mainBar th, .mainBar td {
+    border: 1px solid black;
+}
+
+.mainBar table{
+    width: 100%;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer button {
+    margin: 0 auto;
+}

@@ -1,0 +1,195 @@
+* {
+    width: inherit;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__menu {
+    padding: 2% 0 1% 0;
+}
+
+.header__menu ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu li {
+    list-style: none;
+    display: inline;
+}
+
+.header__menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.header__banner {
+    height: 500px;
+    position: relative;
+}
+
+.header__banner ul {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+}
+
+.header__banner li {
+    list-style: none;
+    color: white;
+}
+
+.mainBar__top li {
+    list-style: none;
+}
+
+.mainBar__content {
+    margin-top: 5%;
+}
+
+.mainBar__img img {
+    font-size: cover;
+}
+
+.mainBar__img:first-child {
+    margin-bottom: 10%;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer__mid {
+    height: 80px;
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header__menu {
+        background-color: rgb(75, 75, 75);
+    }
+
+    .header__menu ul {
+        padding-left: 15%;
+    }
+
+    .header__menu a {
+        color: white;
+    }
+
+    .header__banner {
+        height: 180px;
+        border-bottom: 1px solid silver;
+    }
+
+    .header__banner ul {
+        top: 0;
+        left: 0;
+        padding-left: 10%;
+        margin: 5% 0;
+    }
+
+    .header__banner li {
+        color: black;
+    }
+
+    .header__banner h3 {
+        font-size: 14px;
+        margin-top: 5%;
+        font-weight: 200;
+    }
+
+    .header__banner-img {
+        display: none;
+    }
+
+    .jumbotron {
+        background-color: white !important;
+    }
+
+    .mainBar__content-last {
+        margin-top: 5%;
+    }
+
+    .footer__mid {
+        height: auto;
+        margin: 5% 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .header__menu {
+        background-color: rgb(75, 75, 75);
+    }
+    .blank {
+        display: none;
+    }
+
+    .header__menu ul {
+        padding-left: 0;
+    }
+
+    .header__menu a {
+        color: white;
+    }
+
+    .header__banner {
+        height: 120px;
+    }
+
+    .header__banner-img {
+        display: none;
+    }
+
+    .header__banner ul {
+        top: 0;
+        left: 0;
+        padding-left: 5%;
+        margin: 5% 0;
+    }
+
+    .header__banner li {
+        color: black;
+    }
+
+    .header__banner h3 {
+        font-size: 14px;
+        margin-top: 5%;
+        font-weight: 200;
+    }
+
+    .jumbotron {
+        background-color: white !important;
+    }
+
+    .mainBar {
+        background-color: white;
+    }
+
+    .mainBar__top ul {
+        padding-left: 0;
+    }
+
+    .mainBar__content-endMid {
+        margin-bottom: 10%;
+    }
+
+    .footer__mid {
+        height: auto;
+        margin: 5% 0;
+    }
+}

@@ -1,0 +1,50 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+#test {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+.none {
+    display: none;
+}
+
+.header button {
+    margin: 20px auto;
+}
+
+.nhap {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.urlImg {
+    src: url(obj.image);
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
